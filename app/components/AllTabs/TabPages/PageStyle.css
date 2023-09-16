@@ -1,0 +1,27 @@
+.letter {
+    margin : 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 60%;
+    border-radius: 2rem;
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+}
+
+.letter-wrapper{
+    margin : 0 auto;
+}
+.letter-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*present page (page2) css setting */
+
+.present-wrapper{
+    margin: 0 auto;
+    border : 1px solid red;
+}

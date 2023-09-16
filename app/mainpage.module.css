@@ -1,0 +1,19 @@
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbox{
+  display: flex;
+  justify-content: center;
+  width : 500px;
+  height : 200px;
+  border : medium dashed green;
+}
+
+.letter{
+  display: flex;
+  justify-content: center;
+}
