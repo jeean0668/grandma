@@ -4,6 +4,7 @@ import "./PageStyle.css"
 const Page1 = () => {
     return (
         <div className="letter-wrapper">
+           
             {/* First tab content will go here */}
             <p className="letter-title">할머니의 생신을 축하드립니다!</p>
             <div className="letter">

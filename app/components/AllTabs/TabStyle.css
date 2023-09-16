@@ -13,6 +13,8 @@
  padding: 2rem 1rem;
  color: #E8F0F2;
  border-radius: 2rem;
+
+
  @media (max-width: 769px) {
   padding: 2rem 0;
  }
@@ -28,6 +30,7 @@ ul.nav {
     border: 1px solid #39A2DB;
     border-radius: 2rem;
     padding-left: 0px;
+    
     @media (max-width: 768px) {
       width: 90%;
     }
@@ -62,9 +65,24 @@ ul.nav {
     background: #39A2DB;
   }
 
-/* First and Second Tab Styles */
-.FirstTab p,
-.SecondTab p {
-  font-size: 2rem;
-  text-align: center;
+.outlets {
+     /* Tab page animation */
+    z-index: 0;
+    -webkit-transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+    transition: transform 0.45s cubic-bezier(0, 0, 0.21, 1);
+}
+
+/* For the Tab Page Logo */
+
+.TabLogo{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    border : 1px solid red;
+}
+
+.LogoContent{
+    display: flex;
+    justify-content: center ;
+    border : 1px solid red;
 }

@@ -1,0 +1,38 @@
+
+
+.photo-result-wrapper{
+    margin : 0 auto;
+    background-color: #053742;
+    width : 60%;
+    @media (max-width: 768px) {
+        width: 90%;
+    }
+    
+}
+
+.photo-result-wrapper div span{
+    color : inherit; 
+
+}
+
+
+.photo-result{
+    display : flex;
+    justify-content: center;
+}
+
+.photo-result-text{
+    display : flex;
+    justify-content: center;
+}
+
+.photo-button {
+
+    width : 100px;
+    height : 70px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
