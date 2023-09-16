@@ -3,6 +3,7 @@ import TabNavItem from "./TabNavItems";
 import TabContent from "./TabContents";
 import Page1 from "./AllTabs/TabPages/Page1"; 
 import Page2 from "./AllTabs/TabPages/Page2"; 
+import Page3 from "./AllTabs/TabPages/Page3"; 
  
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -23,7 +24,7 @@ const Tabs = () => {
           <Page2></Page2>
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-          <p>Tab 3 works!</p>
+          <Page3></Page3>
         </TabContent>
       </div>
     </div>
