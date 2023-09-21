@@ -11,7 +11,9 @@ const Tabs = () => {
  
   return (
     <div className="Tabs">
-      <TabLogo activeTab={activeTab} setActiveTab={setActiveTab}/>
+      <div className = "Tab_header">
+        <TabLogo activeTab={activeTab} setActiveTab={setActiveTab}/>
+      </div>
       <ul className="nav">
         <TabNavItem title="편지" id="tab1" activeTab={activeTab} setActiveTab={setActiveTab}/>
         <TabNavItem title="선물" id="tab2" activeTab={activeTab} setActiveTab={setActiveTab}/>

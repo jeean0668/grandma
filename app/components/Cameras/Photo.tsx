@@ -14,9 +14,8 @@ const Photo = () => {
   }, [webcamRef, setImgSrc]);
   return (
     <div className="wrapper ">
-      <span className="title py-20">📷Photo</span>
       <div className="py-10 flex flex-col items-center space-y-4">
-        <span className="font-kangwon-bold text-lg">
+        <span className="photo-title">
           생일 기념 사진을 찍어보세요! (사진은 우클릭으로 저장 가능합니다.)
         </span>
         <Webcam audio={false} ref={webcamRef} screenshotFormat="image/jpeg" />

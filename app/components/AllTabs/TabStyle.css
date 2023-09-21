@@ -77,8 +77,11 @@ ul.nav {
 .TabLogo{
     display: flex;
     justify-content: center;
-    width: 10%;
-    border : 1px solid red;
+    font-size : 50px; 
+    padding-bottom: 10px;
+    @media (max-width: 768px) {
+      font-size : 20px;
+  }
 }
 
 .LogoContent{

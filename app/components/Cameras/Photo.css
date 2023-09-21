@@ -35,4 +35,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    font-size : 20px;
+}
+
+.photo-title {
+    font-size : 30px;
+    @media (max-width: 768px) {
+        font-size : 20px;
+    }
 }

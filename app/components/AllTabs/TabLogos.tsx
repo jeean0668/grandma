@@ -4,11 +4,11 @@ import "./TabStyle.css";
 const TabLogo = ({activeTab} : any) => {
 
     if(activeTab == "tab1"){
-        return <LogoContent>📷Photo</LogoContent>
+        return <div className="TabLogo">📜Letter</div>
     } else if (activeTab == "tab2"){
-        return <div className="TabLogo">Present</div>
+        return <div className="TabLogo">🎁Present</div>
     } else if (activeTab == "tab3"){
-        return <div className="TabLogo">Cameras</div>
+        return <div className="TabLogo">📷Cameras</div>
     } else {
         return null; 
     }

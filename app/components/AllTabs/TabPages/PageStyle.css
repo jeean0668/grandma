@@ -19,10 +19,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size : 30px;
+    padding-bottom: 10px;
 }
 
 /*present page (page2) css setting */
-
+.present-title {
+    font-size : 30px;
+    display: flex;
+    justify-content: center;
+}
 .present-wrapper{
+    
+}
+
+.present-picker{
+    display: flex;
+    justify-content: center;
+    width : 50%; 
     margin: 0 auto;
+    border : 1px solid red;
+}
+
+.present-picker-ul {
+    display: flex;
+    justify-content: space-between;
+    border : 2px solid red;
 }
