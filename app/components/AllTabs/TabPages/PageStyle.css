@@ -34,15 +34,53 @@
 }
 
 .present-picker{
-    display: flex;
-    justify-content: center;
     width : 50%; 
     margin: 0 auto;
-    border : 1px solid red;
+  
 }
 
 .present-picker-ul {
     display: flex;
-    justify-content: space-between;
-    border : 2px solid red;
+    justify-content: space-around;
+    padding : 20px;
 }
+
+.present-picker-ul.li:hover .Image_on{
+    display: none;
+}
+
+.present-picker-ul.li:hover .Image_off{
+    display: block;
+}
+
+.figure {
+
+    width: 50%; /* can be omitted for a regular non-lazy image */
+    height : 300px;
+    max-width: 100%;
+    padding : 10px;
+    display: inline-block;
+    justify-content: center;
+    background-image: url("/giftbox.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .figure:hover {
+    background-image: url("/birthday.png");
+    background-size: 200px 200px;
+  }
+
+  .figure Image.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain; 
+    opacity: 0;
+    transition: opacity .2s;
+    border: 1px solid red;
+  }
+  .figure:hover Image.image-hover {
+    opacity: 1;
+  }
