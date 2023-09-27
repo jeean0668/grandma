@@ -7,7 +7,7 @@
     border-radius: 2rem;
     
     @media (max-width: 768px) {
-        width: 90%;
+        width: 70%;
     }
 }
 
@@ -29,20 +29,22 @@
     display: flex;
     justify-content: center;
 }
-.present-wrapper{
-    
-}
 
 .present-picker{
-    width : 50%; 
+    width : 60%;
     margin: 0 auto;
-  
+    @media (max-width: 768px) {
+        width : 100%;
+    }
+    
 }
 
 .present-picker-ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding : 20px;
+
+    
 }
 
 .present-picker-ul.li:hover .Image_on{
@@ -55,19 +57,65 @@
 
 .figure {
 
-    width: 50%; /* can be omitted for a regular non-lazy image */
-    height : 300px;
+    width: 80%; /* can be omitted for a regular non-lazy image */
+    height : 200px;
     max-width: 100%;
     padding : 10px;
-    display: inline-block;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    
     background-image: url("/giftbox.png");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
     background-repeat: no-repeat;
+    
+    @media (max-width: 768px) {
+        width : 100%;
+        padding : 10px;
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+    }
+    
   }
-  .figure:hover {
-    background-image: url("/birthday.png");
-    background-size: 200px 200px;
+  .figure.p1 {
+    display: flex;
+    justify-content: center;
+  }
+  .figure.p1:hover {
+    
+    background-image: url("/present1.png");
+    background-size: 150px 150px;
+
+    
+    @media (max-width: 768px) {
+        
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+    }
+  }
+
+  .figure.p2:hover {
+    background-image: url("/present2.png");
+    background-size: 150px 150px;
+
+    @media (max-width: 768px) {
+        
+        background-size: 150px 150px;
+
+        background-repeat: no-repeat;
+    }
+  }
+
+  .figure.p3:hover {
+    background-image: url("/present3.png");
+    background-size: 150px 150px;
+
+    @media (max-width: 768px) {
+        
+        background-size: 150px 150px;
+
+        background-repeat: no-repeat;
+    }
   }
 
   .figure Image.image-hover {
@@ -79,7 +127,7 @@
     object-fit: contain; 
     opacity: 0;
     transition: opacity .2s;
-    border: 1px solid red;
+    
   }
   .figure:hover Image.image-hover {
     opacity: 1;

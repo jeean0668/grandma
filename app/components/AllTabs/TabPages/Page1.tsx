@@ -8,7 +8,7 @@ const Page1 = () => {
             {/* First tab content will go here */}
             <p className="letter-title">할머니의 생신을 축하드립니다!</p>
             <div className="letter">
-            <Image src="/letter.jpg" alt="birthday letter" width={400} height={400}></Image>
+            <Image src="/letter.jpeg" alt="birthday letter" width={400} height={400}></Image>
             </div>
       </div>
     );
