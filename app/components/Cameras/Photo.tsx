@@ -30,7 +30,7 @@ const Photo = () => {
                 <img src={imgSrc} />
             </div>
             <span className="photo-result-text">
-              2022. 9. 28. 생일 기념 단체 샷🎉
+              2023. 9. 29. 생일 기념 단체 샷🎉
             </span>
         </div>
         )}
