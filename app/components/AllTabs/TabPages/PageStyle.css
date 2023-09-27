@@ -65,7 +65,7 @@
     justify-content: center;
     align-items: center;
     
-    background-image: url("/giftbox.png");
+    background-image: url("giftbox.png");
     background-size: 150px 150px;
     background-repeat: no-repeat;
     
@@ -83,7 +83,7 @@
   }
   .figure.p1:hover {
     
-    background-image: url("/present1.png");
+    background-image: url("present1.png");
     background-size: 150px 150px;
 
     
@@ -95,7 +95,7 @@
   }
 
   .figure.p2:hover {
-    background-image: url("/present2.png");
+    background-image: url("present2.png");
     background-size: 150px 150px;
 
     @media (max-width: 768px) {
@@ -107,7 +107,7 @@
   }
 
   .figure.p3:hover {
-    background-image: url("/present3.png");
+    background-image: url("present3.png");
     background-size: 150px 150px;
 
     @media (max-width: 768px) {
