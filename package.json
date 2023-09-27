@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https:/jeean0668.github.io/",
+  "homepage" : "https:/jeean0668.github.io/grandma",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
