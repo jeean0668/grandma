@@ -16,7 +16,7 @@ const Photo = () => {
     <div className="wrapper ">
       <div className="py-10 flex flex-col items-center space-y-4">
         <span className="photo-title">
-          생일 기념 사진을 찍어보세요! (사진은 우클릭으로 저장 가능합니다.)
+          기념 사진을 찍어보세요! (사진은 우클릭으로 저장 가능합니다.)
         </span>
         <Webcam audio={false} ref={webcamRef} screenshotFormat="image/jpeg" />
         <button className="photo-button" onClick={capture}>
@@ -30,7 +30,7 @@ const Photo = () => {
                 <img src={imgSrc} />
             </div>
             <span className="photo-result-text">
-              2023. 9. 29. 생일 기념 단체 샷🎉
+              2023. 9. 29. 팔순 기념 단체 샷🎉
             </span>
         </div>
         )}
